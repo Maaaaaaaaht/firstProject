@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100vh;
+}
+
+#test {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-style: bold;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: #f9f871;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  
+}
+#date {
+  text-align: right;
+}
+
+
+
+p {
+  margin: 20px;
+  padding: 0 30px;
+  font-family: monospace;
+  font-size: 14px;
+}
+p.intro {
+  font-size: 26px;
+}
+ol {
+  font-size: 15px;
+  color: black;
+  font-family: monospace;
+}
+ol::before {
+  content: "-";
+}
+img {
+  border-radius: 30%;
+  height: 250px;
+  width: 250px;
+}
+
+
+.container {
+  color: black;
+  background-color: #ddfe96;
+  width: fit-content;
+  padding: 5px 0;
+  border-style: solid;
+  border-color: #f9f871;
+  border-radius: 12px;
+  font-family: monospace;
+}
+h2 {
+  margin-top: 30px;
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: black;
+  font-family: monospace;
+  font-style: bold;
+}
+.footer {
+  background-color: #f9f871;
+  color: black;
+  height: 100px;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-top: 50px;
+}
+.mainContainer {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-evenly; 
+
+}
+.plantCard {
+    align-items: center;
+    display: flex;
+  flex-direction: column;
+  flex: 1 0 30%;
+}
+
+/* html, body {
+    height: 100%;
+    margin: 0;
+  } */

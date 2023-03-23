@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <header>
+    <h1>Indoor Plants</h1>
+    <p id="date"></p>
+    <script>
+      function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('date').innerHTML = x;
+display_c();
+ }
+      // document.getElementById("date").innerHTML = new Date();
+      </script> 
+  </header>
+  <body onload=display_ct();>
+    <p class="intro">
+      For my hobby project, i wanted to talk about my passion for plants,
+      whether they are in their natural habitat or artificially grown indoor. Since i'm a kid, i've always enjoyed beeing outside and climbing on trees. Just being surrounded by nature. Later as a teenager i started collectioning some plants and multiply them.    
+      I always like observing them growing as well as spending time taking care of them. This passion hasn't left me and i still looked after plants wherever i lived. Whether i lived in a diffent country, a big or a small city, warm or cold climate i've always managed to be around plants.  
+    </p>
+    <h2>Here are the tasks needed to maintain healthy plants:</h2>
+
+    <ol>
+      Light
+    </ol>
+    <ol>
+      Watering
+    </ol>
+    <ol>
+      Hydrometry
+    </ol>
+    <ol>
+      Fertilizer
+    </ol>
+    <ol>
+      Soil quality
+    </ol>
+    <ol>
+      Bug invasions
+    </ol>
+
+    <h2>Here are some of my favourite indoor plants:</h2>
+    <div id="mainContainer" class="mainContainer">
+      <div class="plantCard">
+        <img src="imagePlant1.jpeg" alt="Philodendron Melanochrysum" />
+        <h3 class="container">Philodendron Melanochrysum</h3>
+        <p>
+          I love the shape the shape of the leaves, it can climb up to the
+          ceiling. I had a one for a year but sadly died due to spider mites...
+        </p>
+      </div>
+      <div class="plantCard">
+        <img src="imagePlant2.jpeg" alt="Florida Ghost philodendron" />
+        <h3 class="container">Florida ghost Philodendron</h3>
+        <p>
+          This Philodendron produces a beautiful yellow leaf every 2 months, it
+          then slowly turns green as it's getting full of Chlorophyle.
+        </p>
+      </div>
+      <div class="plantCard">
+        <img src="imagePlant3.jpeg" alt="Philodendron Gloriosum" />
+        <h3 class="container">Philodendron Gloriosum</h3>
+        <p>
+          Those Philodendron leaves offer a perfect ground cover, i'd love to
+          have them to in my dream conservatory.
+        </p>
+      </div>
+      <div class="plantCard">
+        <img src="imagePlant4.jpeg" alt="Alocasia Macrorrhiza Variegata" />
+        <h3 class="container">Alocasia Macrorrhiza Variegata</h3>
+        <p>
+          Here is my dream plant, i really wish i could own one of this. They
+          can grown up to 15feet, not really appropriate for a London flat...
+        </p>
+      </div>
+      <div class="plantCard">
+        <img src="imagePlant5.jpeg" alt="Ficus lyrata" />
+        <h3 class="container">Ficus lyrata</h3>
+        <p>
+          This is the biggest plant i own, it is about 2 feet tall and doesnt
+          stop growing although i have to fight hard against bugs that loves
+          feeding on it.
+        </p>
+      </div>
+      <div class="plantCard">
+        <img src="imagePlant6.jpeg" alt="Philodendron ring of ire" />
+        <h3 class="container">Philodendron ring of fire</h3>
+        <p>
+          This is my favourite plant, it produces a vivid orange new leave every
+          month. I've been given one from a friend, it was in a very poor state
+          and after a year it came back from the dead and looks amazing now.
+        </p>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id="footer" class="footer">
+      If you'd like to know more about the world of plants, i hightly recommend the&nbsp;
+     <a
+      href="https://www.kew.org/"
+      >Kew Garden</a
+    >&nbsp;website. 
+      
+    </div>
+  </footer>
+</html>
